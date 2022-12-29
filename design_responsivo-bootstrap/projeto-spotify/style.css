@@ -127,7 +127,7 @@ footer h4 {
     text-transform: uppercase;
 }
 
-    footer .navbar-nav {
+ footer .navbar-nav {
         float: left;
 
     }
@@ -178,17 +178,23 @@ h3 {
 
         /*Extra small devices (portrait phones, less than 576px)*/
         @media (max-width: 575.98px) {
-            .btn-custom {
+        
+        nav.navbar-transparente {
+                padding: 15px 25px;
+         
+        }
+            
+        .btn-custom {
                 margin: 10px 15px;
                 font-size: 1em;
             }
 
-            footer .col-md-2 {
+        footer .col-md-2 {
                 padding-bottom: 10px;
              }
     
 
-            footer .col-md-2 .img-fluid {
+        footer .col-md-2 .img-fluid {
                 padding-bottom: 20px;
              }
 
@@ -196,10 +202,12 @@ h3 {
 
         /*Small devices (landscape phones, 576px and up)*/
         @media (min-width: 576px) and (max-width: 767.98px) {
+       
+
         h1 {
             font-size: 3em;
         }
-
+ 
 
         .btn-custom {
             margin: 10px 15px;
